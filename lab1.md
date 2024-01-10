@@ -15,6 +15,7 @@
       * The working directory was /home
       * I got this output because there is no argument so there is nothing for cat to show since there is no file that it can output
       * This is an error
+  
 2. directory as an argument
    1. cd
       * ![Image]()
