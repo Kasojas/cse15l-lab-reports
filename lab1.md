@@ -1,8 +1,8 @@
 # Lab 1 Report  
 1. no arguments
    1. cd
-      1. ![Image]()
-      2. The working directory was /home
+      * ![Image]()
+      * The working directory was /home
       * I got this output because there was no argument so the workings directory did not change
       * This is not an error
    2. ls
