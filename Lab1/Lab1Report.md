@@ -40,7 +40,7 @@
    2. ls
       * ![Image](Screenshot2024-01-10172405.jpg)
       * The working directory is .home/lecture1
-      * I got this output because ls lists out the files and directories in the path, but since the file is not a directory and the output is only itself
+      * I got this output because ls lists out the files and directories in the path, but since the file is not a directory, the output is only itself
       * This is not an error
    3. cat
       * ![Image](Screenshot2024-01-10172424.jpg)
