@@ -14,7 +14,7 @@
       * ![Image]()
       * The working directory was /home
       * I got this output because there is no argument so there is nothing for cat to show since there is no file that it can output
-      * This is an error
+      * This is an error because cat looks to concatenate a file, but since there is nothing to concatenate it is just stuck on the terminal
 2. directory as an argument
    1. cd
       * ![Image]()
@@ -25,18 +25,18 @@
       * ![Image]()
       * The working directory when the command was run was /home/lecture1
       * I got this output because ls was trying to find lecture1 within lecture1 and that doesn't exist. However, if the working directory was /home, then it would work since lecture1 would exist within /home
-      * This is not an error
+      * This is an error since it indicates that lecture1 does not exist within the current working directory, which might reveal a deeper problem such as a file or directory that is misplaced or of a different name
    3. cat
       * ![Image]()
       * The working directory when the command was run was /home
       * I got this output because cat concatenates files and since the argument is a directory, there are no contents to print
-      * This is not an error
+      * This is an error since cat only concatenates files and it helps indicate that something is wrong or the file is of a different name
 3. file as an argument
    1. cd
       * ![Image]()
       * The working directory is /home/lecture1
       * I got this output because cd looks to change working directories, but since the argument is a file there is nothing for it to change to
-      * This is not an error
+      * This is an error because cd is used to change working directories and if it indicates that it is not a directory, then the file is either misplaced or named
    2. ls
       * ![Image]()
       * The working directory is .home/lecture1
