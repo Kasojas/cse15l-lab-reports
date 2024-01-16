@@ -1,7 +1,7 @@
 # Lab 1 Report  
 1. no arguments
    1. cd
-      * ![Image](Screenshot2024-01-10170955.jpg)
+      * ![cd](Screenshot2024-01-10170955.jpg)
       * The working directory was /home
       * I got this output because there was no argument so the workings directory did not change
       * This is not an error
