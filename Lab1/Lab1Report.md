@@ -11,7 +11,7 @@
       * I got this output because the working directory was /home so ls only shows lecture1 as that is the only file on /home
       * This is not an error
    3. cat
-      * ![Image](Screenshot2024-01-10171309.jpg)
+      * ![Image](l1s1.jpg)
       * The working directory was /home
       * I got this output because there is no argument so there is nothing for cat to show since there is no file that it can output
       * This is an error because cat looks to concatenate a file, but since there is nothing to concatenate it is just stuck on the terminal
