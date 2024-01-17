@@ -13,8 +13,8 @@
    3. cat
       * ![Image](l1s1.jpg)
       * The working directory was /home
-      * I got this output because there is no argument so there is nothing for cat to show since there is no file that it can output
-      * This is an error because cat looks to concatenate a file, but since there is nothing to concatenate it is just stuck on the terminal
+      * I got this output because there is no argument so there is nothing for cat to show since there is no file that it can output, instead it reads what you are inputting into the terminal
+      * This is not an error because there is not an error message and its still technically doing its job of reading
 2. directory as an argument
    1. cd
       * ![Image](Screenshot2024-01-10171349.jpg)
