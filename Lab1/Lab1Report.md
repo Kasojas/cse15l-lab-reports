@@ -1,9 +1,9 @@
 # Lab 1 Report  
 1. no arguments
    1. cd
-      * ![cd](Screenshot2024-01-10170955.jpg)
-      * The working directory was /home
-      * I got this output because there was no argument so the workings directory did not change
+      * ![cd](cds1.jpg)
+      * The working directory was /home/lecture1
+      * I got this output because the working directory was /home/lecture1 so cd without arguments will return the working directory to the home directory
       * This is not an error
    2. ls
       * ![Image](Screenshot2024-01-10171044.jpg)
