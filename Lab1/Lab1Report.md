@@ -14,7 +14,7 @@
       * ![Image](l1s1.jpg)
       * The working directory was /home
       * I got this output because there is no argument so there is nothing for cat to show since there is no file that it can output, instead it reads what you are inputting into the terminal
-      * This is not an error because there is not an error message and its still technically doing its job of reading
+      * This is not an error 
 2. directory as an argument
    1. cd
       * ![Image](Screenshot2024-01-10171349.jpg)
