@@ -16,4 +16,9 @@
      * values that got changed from the request is that message is now "jpolitz: Hello\n yash: How are you\n" and "/add-message?s=How are you&user=yash" for query
 
 ## Part 2
-    
+  1. private key
+     ![privatekey](privatekey.png)
+  2. public key
+     ![publickey](publickey.png)
+  3. interaction with ieng6 without password
+    ![w/opassword](w:opassword.png)
