@@ -24,3 +24,4 @@
     ![w/opassword](wopassword.png)
 
 ## Part 3
+I learned the idea of remote servers from lab in week 2/3. I never thought about how people would remotely access files meant to be kept securely. So this idea of the remote server, with specific people who can access what is within that server is interesting. 
