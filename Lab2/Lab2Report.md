@@ -21,4 +21,4 @@
   2. public key
      ![publickey](publickey.png)
   3. interaction with ieng6 without password
-    ![w/opassword](w:opassword.png)
+    ![w/opassword](w/opassword.png)
