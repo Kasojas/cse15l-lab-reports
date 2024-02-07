@@ -95,7 +95,7 @@
   1. private key  
      ![privatekey1](privatekey1.png)  
      ![privatekey2](privatekey2.png)  
-     Absolute path is /User/jasonma/.ssh/id_rsa
+     Absolute path is /Users/jasonma/.ssh/id_rsa
      
   2. public key
      ![publickey](publickey.png)
