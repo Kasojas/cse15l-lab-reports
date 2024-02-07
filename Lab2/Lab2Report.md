@@ -21,8 +21,7 @@
             }
           }
         ```
-     *   
-       ```
+     * ```
        # revelant arguments to these methods
 
         # url for handleRequest
@@ -40,12 +39,13 @@
        query = ""  
        port = 4000  
        ```
-     *
-       ```
+       
+     * ```
        # values that got changed from the request:
        message = "jpolitz: Hello\n"
        query = "s=Hello&user=jpolitz"
        ```
+      
   2. Second add-message
      ![add-message](add-message2.png)
      * ```
@@ -65,8 +65,7 @@
             }
           }
         ```
-     * 
-        ```
+     * ```
        # revelant arguments to these methods
 
         # url for handleRequest
@@ -84,12 +83,13 @@
        query = ""
        port = 4000
        ```
-     *
-        ```
+        
+     * ```
        # values that got changed from the request:
        message = "jpolitz: Hello\n yash: How are you\n"
        query = "s=How are you&user=yash"
-         ```
+       ```
+       
 
 ## Part 2
   1. private key  
