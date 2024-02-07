@@ -34,6 +34,7 @@
         public static void main(String[] args) throws IOException {
           ...
         }
+        
        # values of relevant fields:
        message = ""
        query = ""
