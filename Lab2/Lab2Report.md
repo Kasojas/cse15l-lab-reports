@@ -95,10 +95,11 @@
   1. private key  
      ![privatekey1](privatekey1.png)  
      ![privatekey2](privatekey2.png)  
-     Absolute path is /User/jasonma/.ssh/isa_
-  3. public key
+     Absolute path is /User/jasonma/.ssh/id_rsa
+     
+  2. public key
      ![publickey](publickey.png)
-  4. interaction with ieng6 without password
+  3. interaction with ieng6 without password
     ![w/opassword](wopassword.png)
 
 ## Part 3
