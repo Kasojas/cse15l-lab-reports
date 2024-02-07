@@ -24,7 +24,16 @@
      * The relevant arguments to these methods are the URL for the handleRequest method and the port number for the main method
         ```
        # revelant arguments to these methods
-      
+
+        # url for handleRequest
+        public String handleRequest(URI url) {
+          ...
+        }
+
+        # port number for args for main method
+        public static void main(String[] args) throws IOException {
+          ...
+        }
        # values of relevant fields:
        message = ""
        query = ""
