@@ -46,10 +46,9 @@
        message = "jpolitz: Hello\n"
        query = "s=Hello&user=jpolitz"
        ```
-  3. Second add-message
+  2. Second add-message
      ![add-message](add-message2.png)
-     * 
-        ```
+     * ```
         # methods called in my code
 
           # handleRequest in Handler class
