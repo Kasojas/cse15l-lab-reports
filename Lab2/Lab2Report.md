@@ -90,7 +90,6 @@
        message = "jpolitz: Hello\n yash: How are you\n"
        query = "s=How are you&user=yash"
          ```
-     * values that got changed from the request is that message is now "jpolitz: Hello\n yash: How are you\n" and "/add-message?s=How are you&user=yash" for query
 
 ## Part 2
   1. private key
