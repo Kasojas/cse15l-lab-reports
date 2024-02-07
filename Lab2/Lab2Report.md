@@ -93,10 +93,12 @@
 
 ## Part 2
   1. private key
-     ![privatekey](privatekey.png)
-  2. public key
+     ![privatekey1](privatekey1.png)
+     ![privatekey2](privatekey2.png)
+     Absolute path is /User
+  3. public key
      ![publickey](publickey.png)
-  3. interaction with ieng6 without password
+  4. interaction with ieng6 without password
     ![w/opassword](wopassword.png)
 
 ## Part 3
