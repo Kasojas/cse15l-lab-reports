@@ -21,8 +21,13 @@
   3. Second add-message
      ![add-message](add-message2.png)
      * The methods in my code that are called are the handleRequest method in the Handler class and the main method in the ChatServer class
-     * The relevant arguments to these methods are the URL for the handleRequest method and the main method is the port number; values of relevant fields is "" for message,
-       "" for query, and 4000 for port
+     * The relevant arguments to these methods are the URL for the handleRequest method and the port number for the main method
+        ```
+       # values of relevant fields:
+       message = ""
+       query = ""
+       port = 4000
+       ```
      * values that got changed from the request is that message is now "jpolitz: Hello\n yash: How are you\n" and "/add-message?s=How are you&user=yash" for query
 
 ## Part 2
