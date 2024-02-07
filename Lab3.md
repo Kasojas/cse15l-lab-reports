@@ -1,5 +1,5 @@
 # Lab 3 Report  
-## Part 1  
+## Part 1 - Bugs  
 * ```
   # failure-inducing input
   @Test
@@ -39,4 +39,6 @@
   ```
   This fixes the code as it creates a temp variable that holds the value of the index where the array is being reversed.
   This allows the for loop to reverse rather than the array being mirrored. Using the temp variable and changing it
-  in the same iteration means that the loop only lasts half of the array length. 
+  in the same iteration means that the loop only lasts half of the array length.
+## Part 2 - Researching Commands  
+
