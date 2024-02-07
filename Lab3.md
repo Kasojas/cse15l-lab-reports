@@ -41,4 +41,5 @@
   This allows the for loop to reverse rather than the array being mirrored. Using the temp variable and changing it
   in the same iteration means that the loop only lasts half of the array length.
 ## Part 2 - Researching Commands  
+* __grep__ s
 
