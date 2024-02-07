@@ -4,8 +4,7 @@
   ![chatservercode](chatservercode.png)  
   1. First add-message
      ![add-message](add-message1.png)
-     *  
-       ```
+     * ```
         # methods called in my code
 
           # handleRequest in Handler class
@@ -47,7 +46,7 @@
        message = "jpolitz: Hello\n"
        query = "s=Hello&user=jpolitz"
        ```
-  2. Second add-message
+  3. Second add-message
      ![add-message](add-message2.png)
      * 
         ```
