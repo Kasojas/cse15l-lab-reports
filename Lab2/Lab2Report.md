@@ -4,7 +4,7 @@
   ![chatservercode](chatservercode.png)  
   1. First add-message
      ![add-message](add-message1.png)
-     * 
+     *  
        ```
         # methods called in my code
 
