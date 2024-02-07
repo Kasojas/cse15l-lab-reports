@@ -18,7 +18,7 @@
        message = "jpolitz: Hello\n"
        query = "/add-message?s=<string>&user=<string>"
        ```
-  3. Second add-message
+  2. Second add-message
      ![add-message](add-message2.png)
      * The methods in my code that are called are the handleRequest method in the Handler class and the main method in the ChatServer class
      * The relevant arguments to these methods are the URL for the handleRequest method and the port number for the main method
@@ -27,6 +27,12 @@
        message = ""
        query = ""
        port = 4000
+       ```
+     *
+      ```
+       # values that got changed from the request:
+       message = "jpolitz: Hello\n yash: How are you\n"
+       query = "/add-message?s=How are you&user=yash"
        ```
      * values that got changed from the request is that message is now "jpolitz: Hello\n yash: How are you\n" and "/add-message?s=How are you&user=yash" for query
 
