@@ -4,9 +4,38 @@
   ![chatservercode](chatservercode.png)  
   1. First add-message
      ![add-message](add-message1.png)
-     * The methods in my code that are called are the handleRequest method in the Handler class and the main method in the ChatServer class
-     * The relevant arguments to these methods are the URL for the handleRequest method and the port number for the main method  
+     * 
        ```
+        # methods called in my code
+
+          # handleRequest in Handler class
+        class Handler implements URLHandler {
+          public String handleRequest(URI url) {
+            ...
+          }
+        }
+
+          # main method in ChatServer class
+          public class ChatServer {
+            public static void main(String[] args) throws IOException {
+              ...
+            }
+          }
+        ```
+     *   
+       ```
+       # revelant arguments to these methods
+
+        # url for handleRequest
+        public String handleRequest(URI url) {
+          ...
+        }
+
+        # port number for args for main method
+        public static void main(String[] args) throws IOException {
+          ...
+        }
+        
        # values of relevant fields:
        message = ""  
        query = ""  
@@ -20,7 +49,7 @@
        ```
   2. Second add-message
      ![add-message](add-message2.png)
-     * The methods in my code that are called are the handleRequest method in the Handler class and the main method in the ChatServer class
+     * 
         ```
         # methods called in my code
 
