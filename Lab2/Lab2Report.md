@@ -16,7 +16,7 @@
        ```
        # values that got changed from the request:
        message = "jpolitz: Hello\n"
-       query = "/add-message?s=<string>&user=<string>"
+       query = "/add-message?s=Hello&user=jpolitz"
        ```
   2. Second add-message
      ![add-message](add-message2.png)
