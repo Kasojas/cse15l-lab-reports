@@ -16,7 +16,7 @@
        ```
        # values that got changed from the request:
        message = "jpolitz: Hello\n"
-       query = "/add-message?s=Hello&user=jpolitz"
+       query = "s=Hello&user=jpolitz"
        ```
   2. Second add-message
      ![add-message](add-message2.png)
@@ -29,11 +29,11 @@
        port = 4000
        ```
      *
-      ```
+        ```
        # values that got changed from the request:
        message = "jpolitz: Hello\n yash: How are you\n"
-       query = "/add-message?s=How are you&user=yash"
-       ```
+       query = "s=How are you&user=yash"
+         ```
      * values that got changed from the request is that message is now "jpolitz: Hello\n yash: How are you\n" and "/add-message?s=How are you&user=yash" for query
 
 ## Part 2
