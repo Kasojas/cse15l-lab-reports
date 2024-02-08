@@ -44,7 +44,7 @@
 * __grep -An__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -A1 "cell" technical/biomed/*.txt
- 	...lines...
+     ...lines...
   	technical/biomed/rr73.txt:            cellophane sheets (Pharmacia Biotech, San Francisco,
 	technical/biomed/rr73.txt-            CA, USA).
 	--
@@ -62,14 +62,14 @@
 * __grep -n__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -n "blood" technical/plos/*.txt
-  	...lines...
+     ...lines...
   	technical/plos/pmed.0020242.txt:43:        + cells to be captured and separated from red blood cells, another
   	technical/plos/pmed.0020268.txt:11:        To assess disease severity, peripheral blood parasitemia is measured, but this is only a
   	technical/plos/pmed.0020268.txt:37:        severity and outcome. By contrast, peripheral blood parasitemia and the number of
   ```
   ```
   $ find technical/government/* | xargs grep -n "program"
-  	...lines...
+     ...lines...
   	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:513:approved a two-year experiment of a program that enabled users of
   	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:518:ultimately approved a request to make the experimental program a
   	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:644:advertising and other program-related expenses. 
@@ -79,7 +79,7 @@
 * __grep -i__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -i "cell" technical/biomed/*.txt
-  	...lines...
+     ...lines...
   	technical/biomed/rr73.txt:            Cell (BIO-RAD, Hercules, CA). The proteins were
   	technical/biomed/rr73.txt:            Cell (BIO-RAD, Hercules, CA, USA). The blots were
   	technical/biomed/rr74.txt:        the redox state of pulmonary artery endothelial cells in
@@ -96,7 +96,7 @@
 * __grep -v__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -v "cell" technical/biomed/*.txt
-  	...lines...
+     ...lines...
   	technical/biomed/rr74.txt:        chain reaction; RIPA = radioimmunoprecipitation assay; RVsP
   	technical/biomed/rr74.txt:        = right ventricular systolic pressure.
   	technical/biomed/rr74.txt:
@@ -105,7 +105,7 @@
   ```
   ```
   $ wc technical/plos/*.txt
-  	...lines...
+     ...lines...
   	53     570    4146 technical/plos/pmed.0020275.txt
      	41     372    2779 technical/plos/pmed.0020278.txt
      	40     387    2851 technical/plos/pmed.0020281.txt
