@@ -78,7 +78,7 @@
 		technical/plos/pmed.0020273.txt-
   ```
   The option -A means it will print the line with the pattern and n lines after it. This might be useful if someone
-  wants context of lines of the files they grep 
+  wants context of lines of the files they grep  
 2. __grep -n__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -n "blood" technical/plos/*.txt
@@ -95,7 +95,7 @@
   	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:644:advertising and other program-related expenses. 
   ```
   The option -n means that the lines with the pattern are printed with their line numbers. This might be useful because
-  you might want to know where the line of that file is located.
+  you might want to know where the line of that file is located.  
 3. __grep -i__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -i "cell" technical/biomed/*.txt
@@ -112,7 +112,7 @@
      21300  200834 2064064
   ```
   The option -i is case insensitive so it will grep lines with the pattern without checking cases. This is useful to people who are only
-  focused on finding lines with that specific pattern and not interested in whether there are different cases or not. 
+  focused on finding lines with that specific pattern and not interested in whether there are different cases or not.  
 4. __grep -v__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -v "cell" technical/biomed/*.txt
