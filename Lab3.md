@@ -64,8 +64,8 @@
   $ grep -n "blood" technical/plos/*.txt
   	...lines...
   	technical/plos/pmed.0020242.txt:43:        + cells to be captured and separated from red blood cells, another
-	technical/plos/pmed.0020268.txt:11:        To assess disease severity, peripheral blood parasitemia is measured, but this is only a
-	technical/plos/pmed.0020268.txt:37:        severity and outcome. By contrast, peripheral blood parasitemia and the number of
+  	technical/plos/pmed.0020268.txt:11:        To assess disease severity, peripheral blood parasitemia is measured, but this is only a
+  	technical/plos/pmed.0020268.txt:37:        severity and outcome. By contrast, peripheral blood parasitemia and the number of
   ```
   ```
   $ find technical/government/* | xargs grep -n "program"
