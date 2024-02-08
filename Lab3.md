@@ -41,7 +41,7 @@
   This allows the for loop to reverse rather than the array being mirrored. Using the temp variable and changing it
   in the same iteration means that the loop only lasts half of the array length.
 ## Part 2 - Researching Commands  
-* __grep -An__
+* __grep -An__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -A1 "cell" technical/biomed/*.txt
  	...lines...
