@@ -115,4 +115,6 @@
   $ grep -v "cell" technical/plos/*.txt | wc
      36364  422639 4135119
   ```
+  The option -v prints all the lines that are not the pattern. This is useful for people who are trying to filter out the pattern
+  rather than searching for the pattern.
 
