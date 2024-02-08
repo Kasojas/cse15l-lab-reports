@@ -65,17 +65,39 @@
 * __grep -n__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -n "blood" technical/plos/*.txt
+  	...lines...
   	technical/plos/pmed.0020242.txt:43:        + cells to be captured and separated from red blood cells, another
 	technical/plos/pmed.0020268.txt:11:        To assess disease severity, peripheral blood parasitemia is measured, but this is only a
 	technical/plos/pmed.0020268.txt:37:        severity and outcome. By contrast, peripheral blood parasitemia and the number of
   ```
   ```
   $ find technical/government/* | xargs grep -n "program"
+  	...lines...
  	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:513:approved a two-year experiment of a program that enabled users of
 	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:518:ultimately approved a request to make the experimental program a
 	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:644:advertising and other program-related expenses. 
   ```
   The option -n means that the lines with the pattern are printed with their line numbers. This might be useful because
   you might want to know where the line of that file is located.
-* 
+* __grep -i__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+  ```
+  $ grep -i "cell" technical/biomed/*.txt
+  	technical/biomed/rr73.txt:            Cell (BIO-RAD, Hercules, CA). The proteins were
+  	technical/biomed/rr73.txt:            Cell (BIO-RAD, Hercules, CA, USA). The blots were
+  	technical/biomed/rr74.txt:        the redox state of pulmonary artery endothelial cells in
+ 	technical/biomed/rr74.txt:        expression in systemic and pulmonary endothelial cells from
+  ```
+  ```
+  $ grep "cell" technical/biomed/*.txt | wc
+  	20416  193374 1982872
+  $ grep -i "cell" technical/biomed/*.txt | wc
+  	21300  200834 2064064
+  ```
+  The option -i is case insensitive so it will grep lines with the pattern without checking cases. This is useful to people who are only
+  focused on finding lines with that specific pattern and not interested in whether there are different cases or not. 
+* __grep -v__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+   ```
+  ```
+  ```
+  ```
 
