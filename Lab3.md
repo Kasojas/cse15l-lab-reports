@@ -43,7 +43,39 @@
 ## Part 2 - Researching Commands  
 * __grep -An__
   ```
-  
+  $ grep -A1 "cell" technical/biomed/*.txt
+ 	...lines...
+  	technical/biomed/rr73.txt:            cellophane sheets (Pharmacia Biotech, San Francisco,
+	technical/biomed/rr73.txt-            CA, USA).
+	--
+	technical/biomed/rr74.txt:        the redox state of pulmonary artery endothelial cells in
+	technical/biomed/rr74.txt-        culture suggested that activation of redox-sensitive
+	--
+	technical/biomed/rr74.txt:        expression in systemic and pulmonary endothelial cells from
+	technical/biomed/rr74.txt-        different species in cultures [ 31, 32, 33, 34, 35, 36, 37]
   ```
+  ```
+  $ grep "cell" technical/biomed/*.txt | wc
+  	20416  193374 1982872
+  $ grep -A1 "cell" technical/biomed/*.txt | wc
+  	50467  354100 3589813
+  ```
+  The option -A means it will print the line with the pattern and n lines after it. This might be useful if someone
+  wants context of lines of the files they grep 
+* __grep -n__
+  ```
+  $ grep -n "blood" technical/plos/*.txt
+  	technical/plos/pmed.0020242.txt:43:        + cells to be captured and separated from red blood cells, another
+	technical/plos/pmed.0020268.txt:11:        To assess disease severity, peripheral blood parasitemia is measured, but this is only a
+	technical/plos/pmed.0020268.txt:37:        severity and outcome. By contrast, peripheral blood parasitemia and the number of
+  ```
+  ```
+  $ find technical/government/* | xargs grep -n "program"
+ 	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:513:approved a two-year experiment of a program that enabled users of
+	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:518:ultimately approved a request to make the experimental program a
+	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:644:advertising and other program-related expenses. 
+  ```
+  The option -n means that the lines with the pattern are printed with their line numbers. This might be useful because
+  you might want to know where the line of that file is located.
 * 
 
