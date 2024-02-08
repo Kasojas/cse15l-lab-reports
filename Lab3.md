@@ -42,7 +42,7 @@
   This allows the for loop to reverse rather than the array being mirrored. Using the temp variable and changing it
   in the same iteration means that the loop only lasts half of the array length.
 ## Part 2 - Researching Commands  
-* __grep -An__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+1. __grep -An__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -A1 "cell" technical/biomed/*.txt
      ...lines...
@@ -79,7 +79,7 @@
   ```
   The option -A means it will print the line with the pattern and n lines after it. This might be useful if someone
   wants context of lines of the files they grep 
-* __grep -n__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+2. __grep -n__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -n "blood" technical/plos/*.txt
      ...lines...
@@ -96,7 +96,7 @@
   ```
   The option -n means that the lines with the pattern are printed with their line numbers. This might be useful because
   you might want to know where the line of that file is located.
-* __grep -i__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+3. __grep -i__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -i "cell" technical/biomed/*.txt
      ...lines...
@@ -113,7 +113,7 @@
   ```
   The option -i is case insensitive so it will grep lines with the pattern without checking cases. This is useful to people who are only
   focused on finding lines with that specific pattern and not interested in whether there are different cases or not. 
-* __grep -v__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+4. __grep -v__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -v "cell" technical/biomed/*.txt
      ...lines...
