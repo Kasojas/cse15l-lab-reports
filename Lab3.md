@@ -70,9 +70,9 @@
   ```
   $ find technical/government/* | xargs grep -n "program"
   	...lines...
- 	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:513:approved a two-year experiment of a program that enabled users of
-	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:518:ultimately approved a request to make the experimental program a
-	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:644:advertising and other program-related expenses. 
+  	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:513:approved a two-year experiment of a program that enabled users of
+  	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:518:ultimately approved a request to make the experimental program a
+  	technical/government/Post_Rate_Comm/ReportToCongress2002WEB.txt:644:advertising and other program-related expenses. 
   ```
   The option -n means that the lines with the pattern are printed with their line numbers. This might be useful because
   you might want to know where the line of that file is located.
@@ -83,7 +83,7 @@
   	technical/biomed/rr73.txt:            Cell (BIO-RAD, Hercules, CA). The proteins were
   	technical/biomed/rr73.txt:            Cell (BIO-RAD, Hercules, CA, USA). The blots were
   	technical/biomed/rr74.txt:        the redox state of pulmonary artery endothelial cells in
- 	technical/biomed/rr74.txt:        expression in systemic and pulmonary endothelial cells from
+  	technical/biomed/rr74.txt:        expression in systemic and pulmonary endothelial cells from
   ```
   ```
   $ grep "cell" technical/biomed/*.txt | wc
@@ -98,10 +98,10 @@
   $ grep -v "cell" technical/biomed/*.txt
   	...lines...
   	technical/biomed/rr74.txt:        chain reaction; RIPA = radioimmunoprecipitation assay; RVsP
-	technical/biomed/rr74.txt:        = right ventricular systolic pressure.
-	technical/biomed/rr74.txt:
-	technical/biomed/rr74.txt:
-	technical/biomed/rr74.txt:
+  	technical/biomed/rr74.txt:        = right ventricular systolic pressure.
+  	technical/biomed/rr74.txt:
+  	technical/biomed/rr74.txt:
+  	technical/biomed/rr74.txt:
   ```
   ```
   $ wc technical/plos/*.txt
