@@ -55,7 +55,26 @@
 		technical/biomed/rr74.txt-        different species in cultures [ 31, 32, 33, 34, 35, 36, 37]
   ```
   ```
- 	change this
+  $ grep -A10 "cell" technical/plos/*.txt
+     ...lines...
+  	--
+	technical/plos/pmed.0020273.txt:        three major groups: immune and inflammatory response; oncogenesis, cell proliferation, and
+	technical/plos/pmed.0020273.txt-        growth; or structure and permeability. For immune and inflammatory response, the team
+	technical/plos/pmed.0020273.txt-        identified many genes associated with aberrant immune response; it is not surprising,
+	technical/plos/pmed.0020273.txt-        perhaps, to find a general up-regulation of immune response and antigen presentation in
+	technical/plos/pmed.0020273.txt:        IBD. Several genes associated with cell growth and proliferation were up-regulated in UC—a
+	technical/plos/pmed.0020273.txt-        finding similar to previous microarray studies that had reported involvement of
+	technical/plos/pmed.0020273.txt-        cancer-related genes in IBD (although the altered genes were different). There was also an
+	technical/plos/pmed.0020273.txt-        enrichment of genes associated with structure and permeability; in this class several genes
+	technical/plos/pmed.0020273.txt-        were ubiquitously altered in both IBD and non-IBD samples, reflecting dysregulation of
+	technical/plos/pmed.0020273.txt:        genes for paracellular permeability, degradation of extracellular matrix, and barrier
+	technical/plos/pmed.0020273.txt-        protection against bacterial invasion of the epithelial surface.
+	technical/plos/pmed.0020273.txt-        Ultimately this study highlights the complex pathogenesis of UC and CD, and indicates
+	technical/plos/pmed.0020273.txt-        some possible future avenues for research of mucosal diseases in general. It demonstrates
+	technical/plos/pmed.0020273.txt-        that genomic technologies are suitable to directly dissect human pathophysiology.
+	technical/plos/pmed.0020273.txt-
+	technical/plos/pmed.0020273.txt-
+	technical/plos/pmed.0020273.txt-
   ```
   The option -A means it will print the line with the pattern and n lines after it. This might be useful if someone
   wants context of lines of the files they grep 
