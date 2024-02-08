@@ -62,7 +62,7 @@
   ```
   The option -A means it will print the line with the pattern and n lines after it. This might be useful if someone
   wants context of lines of the files they grep 
-* __grep -n__ Source: [!Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
+* __grep -n__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -n "blood" technical/plos/*.txt
   	technical/plos/pmed.0020242.txt:43:        + cells to be captured and separated from red blood cells, another
