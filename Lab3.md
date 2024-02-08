@@ -18,8 +18,7 @@
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
   ```
-*   
-
+*                             
   ![JUnitTest](Screenshots/testFailed.jpg)
 * ```
   # before code-fix
