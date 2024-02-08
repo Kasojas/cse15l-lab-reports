@@ -45,7 +45,7 @@
   ```
   $ grep -A1 "cell" technical/biomed/*.txt
      ...lines...
-  	technical/biomed/rr73.txt:            cellophane sheets (Pharmacia Biotech, San Francisco,
+  technical/biomed/rr73.txt:            cellophane sheets (Pharmacia Biotech, San Francisco,
 	technical/biomed/rr73.txt-            CA, USA).
 	--
 	technical/biomed/rr74.txt:        the redox state of pulmonary artery endothelial cells in
