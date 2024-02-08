@@ -55,10 +55,7 @@
 	technical/biomed/rr74.txt-        different species in cultures [ 31, 32, 33, 34, 35, 36, 37]
   ```
   ```
-  $ grep "cell" technical/biomed/*.txt | wc
-  	20416  193374 1982872
-  $ grep -A1 "cell" technical/biomed/*.txt | wc
-  	50467  354100 3589813
+ 	change this
   ```
   The option -A means it will print the line with the pattern and n lines after it. This might be useful if someone
   wants context of lines of the files they grep 
@@ -82,6 +79,7 @@
 * __grep -i__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
   ```
   $ grep -i "cell" technical/biomed/*.txt
+  	...lines...
   	technical/biomed/rr73.txt:            Cell (BIO-RAD, Hercules, CA). The proteins were
   	technical/biomed/rr73.txt:            Cell (BIO-RAD, Hercules, CA, USA). The blots were
   	technical/biomed/rr74.txt:        the redox state of pulmonary artery endothelial cells in
@@ -89,15 +87,32 @@
   ```
   ```
   $ grep "cell" technical/biomed/*.txt | wc
-  	20416  193374 1982872
+     20416  193374 1982872
   $ grep -i "cell" technical/biomed/*.txt | wc
-  	21300  200834 2064064
+     21300  200834 2064064
   ```
   The option -i is case insensitive so it will grep lines with the pattern without checking cases. This is useful to people who are only
   focused on finding lines with that specific pattern and not interested in whether there are different cases or not. 
 * __grep -v__ [Source](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
-   ```
+  ```
+  $ grep -v "cell" technical/biomed/*.txt
+  	...lines...
+  	technical/biomed/rr74.txt:        chain reaction; RIPA = radioimmunoprecipitation assay; RVsP
+	technical/biomed/rr74.txt:        = right ventricular systolic pressure.
+	technical/biomed/rr74.txt:
+	technical/biomed/rr74.txt:
+	technical/biomed/rr74.txt:
   ```
   ```
+  $ wc technical/plos/*.txt
+  	...lines...
+  	53     570    4146 technical/plos/pmed.0020275.txt
+     	41     372    2779 technical/plos/pmed.0020278.txt
+     	40     387    2851 technical/plos/pmed.0020281.txt
+     38081  408246 3032892 total
+  $ grep "cell" technical/plos/*.txt | wc
+     1717   23688  218292
+  $ grep -v "cell" technical/plos/*.txt | wc
+     36364  422639 4135119
   ```
 
