@@ -4,7 +4,7 @@
 Keys Pressed: `ssh jam024@ieng<Enter>` which is the command that logs me into ieng6.  
 ## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)  
 ![Step5](Screenshots/Step5.png)  
-Keys Pressed: `git clone <ctrl-v><Enter>`, where git clone is the command that clones the repository.    
+Keys Pressed: `git clone <ctrl-v><Enter>`, where git clone is the command that clones the repository.
               The ssh URL was `git@github.com:Kasojas/lab7.git` which I copied from Github
               and pasted it into the terminal  
 ## Step 6: Run the tests, demonstrating that they fail  
