@@ -16,8 +16,8 @@ Keys Pressed: `cd lab7<Enter><ctrl-v><Enter><ctrl-v> L<Tab>T<Tab><Backspace><Ent
               `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests`  
 ## Step 7: Edit the code file to fix the failing test  
 ![Step7P1](Screenshots/Step7P1.png) ![Step7P2](Screenshots/Step7P2.png)  
-Keys Pressed: `vim L<Tab>T<Tab><Enter> <Esc>/l1<Enter> n<RIGHT>s2<DOWN><Backspace>1 <Esc>:x<Enter>`, type vim with L and T with tabs to autofill ListExamplesTests.java
-              then you enter the file with vim. In normal mode, enter /l1 to search for l1 and n to go through all of l1 and to edit the file to correct the test s2 to switch `l1` to `l2`,
+Keys Pressed: `vim L<Tab>T<Tab><Enter> <Esc>/l1<Enter> n<RIGHT>s2<DOWN><Backspace>1 <Esc>:x<Enter>`, type `vim` with `L` and `T` with tabs to autofill `ListExamplesTests.java`
+              then you enter the file with vim. In normal mode, enter `/l1` to search for l1 and n to go through all of l1 and to edit the file to correct the test s2 to switch `l1` to `l2`,
               and then go down to the line under and switch `l2` to `l1` and save and exit with `:wq`
 ## Step 8: Run the tests, demonstrating that they now succeed  
 ![Step8](Screenshots/Step8.png)  
@@ -25,5 +25,5 @@ Keys Pressed: `<UP><UP><UP><ENTER> <UP><UP><UP><ENTER>`, I used up arrow three t
               and up arrow three times to get `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` from the search history to run the tests
 ## Step 9: Commit and push the resulting change to your Github account  
 ![Step9](Screenshots/Step9.png)  
-Keys Pressed: `git add Li<Tab><ENTER> git commit -m "fixed tests"<Enter> git push origin main<Enter>` git add and autofill ListExamplesTests.java to add changes to commit,
-              git commit -m "fixed tests" to commit changes with commit message, and git push origin main to push it to Github
+Keys Pressed: `git add Li<Tab><ENTER> git commit -m "fixed tests"<Enter> git push origin main<Enter>` `git add` and autofill `ListExamplesTests.java` to add changes to commit,
+              `git commit -m "fixed tests"` to commit changes with commit message, and `git push origin main` to push it to Github
