@@ -18,7 +18,7 @@ Keys Pressed: `cd lab7<Enter><ctrl-v><Enter><ctrl-v> L<Tab>T<Tab><Backspace><Ent
 ![Step7P1](Screenshots/Step7P1.png) ![Step7P2](Screenshots/Step7P2.png)  
 Keys Pressed: `vim L<Tab>T<Tab><Enter> <Esc>/l1<Enter> n<RIGHT>s2<DOWN><Backspace>1 <Esc>:x<Enter>`, type vim with L and T with tabs to autofill ListExamplesTests.java
               then you enter the file with vim. In normal mode, enter /l1 to search for l1 and n to go through all of l1 and to edit the file to correct the test s2 to switch `l1` to `l2`,
-              and then go down to the line under and switch `l2` to `l1` and save and exit with `:x`
+              and then go down to the line under and switch `l2` to `l1` and save and exit with `:wq`
 ## Step 8: Run the tests, demonstrating that they now succeed  
 ![Step8](Screenshots/Step8.png)  
 Keys Pressed: `<UP><UP><UP><ENTER> <UP><UP><UP><ENTER>`, I used up arrow three times to get `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` from the search history,
