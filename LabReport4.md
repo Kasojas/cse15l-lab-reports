@@ -25,5 +25,5 @@ Keys Pressed: `<UP><UP><UP><ENTER> <UP><UP><UP><ENTER>`, I used up arrow three t
               and up arrow three times to get `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` from the search history to run the tests
 ## Step 9: Commit and push the resulting change to your Github account  
 ![Step9](Screenshots/Step9.png)  
-Keys Pressed: `git add Li<Tab><ENTER> git commit -m "fixed tests"<Enter> git push origin main<Enter>` `git add` and autofill `ListExamplesTests.java` to add changes to commit,
+Keys Pressed: `git add Li<Tab><ENTER> git commit -m "fixed tests"<Enter> git push origin main<Enter>`, I typed the commands `git add` and autofill `ListExamplesTests.java` to add changes to commit,
               `git commit -m "fixed tests"` to commit changes with commit message, and `git push origin main` to push it to Github
