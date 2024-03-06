@@ -3,7 +3,7 @@
 1) Post From Student
   ![Symptom]()
 >fjasjkdf;lajs;ldfj
->sadkfjl;j;lsajdf
+>askjdf;ja;slf
 3) 
 4) 
 5) 
