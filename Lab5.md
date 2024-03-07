@@ -8,10 +8,11 @@
 >Have you made sure that you implemented a way to delete the old repository in the script? If you have, go over the script and see if the removal is at the correct place in the script. 
 3)
 ![BugFixed](fixed.png)
->The bug was that the removal was after making the new directory, so my script ran everything on the old directory rather than the new one 
-4) Information About Setup
-- The file was grade.sh and the directory structure consisted of ../list-examples-grade with TestListExamples, grade.sh, /grading-area, /student-submission, and /lib. /student-submission having everything from given repostiroy and /grading-area with everything from /grading-area copied and copy of TestListExamples and the lib directory
-- ``` grade.sh
+>The bug was that the removal was after making the new directory, so my script ran everything on the old directory rather than the new one  
+4) Information About Setup  
+- The file was grade.sh and the directory structure consisted of ../list-examples-grade with TestListExamples, grade.sh, /grading-area, /student-submission, and /lib. /student-submission having everything from given repostiroy and /grading-area with everything from /grading-area copied and copy of TestListExamples and the lib directory  
+- grade.sh
+  ``` 
   CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
   mkdir grading-area
