@@ -6,7 +6,7 @@
 >It seems that the new repository could not be created because there was one that already exists, which might mean the student-submission is from the last time I ran the grade script with another repository. 
 2) TA Response
 >Have you made sure that you implemented a way to delete the old repository in the script? If you have, go over the script and see if the removal is at the correct place in the script. 
-3)
+3) After Trying To Fix Bug 
 ![BugFixed](fixed.png)
 >The bug was that the removal was after making the new directory, so my script ran everything on the old directory rather than the new one  
 4) Information About Setup  
@@ -21,6 +21,29 @@
   ... 
   rm -rf student-submission
   rm -rf grading-area
+  ```
+  ../grading-area/ListExamples.java
+  ```
+  import java.util.ArrayList;
+  import java.util.List;
+
+  interface StringChecker { boolean checkString(String s); }
+
+  class ListExamples {
+
+  // Returns a new list that has all the elements of the input list for which
+  // the StringChecker returns true, and not the elements that return false, in
+  // the same order they appeared in the input list;
+  static List<String> filter(List<String> list, StringChecker sc) {
+    List<String> result = new ArrayList<>();
+    for(String s: list) {
+      if(sc.checkString(s)) {
+        result.add(0, s)
+      }
+    }
+    return result;
+  }
+  ...
   ```
 - f
 - 
