@@ -45,5 +45,7 @@
   }
   ...
   ```
-- f
-- 
+- Command line ran: bash grade.sh [https://github.com/ucsd-cse15l-f22/list-methods-lab3](https://github.com/ucsd-cse15l-f22/list-methods-lab3)
+- To fix the bug the rm -rf student-submission and rm -rf grading-area had to be moved in the lines between CPATH... and mkdir...
+## Part 2
+> Something I learned in the second half of the quarter was learning how people might code from the terminal when they are on a remote server, specifically Vim. When we first learned about remote servers I was interested in how people might edit files since there is no text editor, and then we eventually learned about Vim which I found tedious compared to a regular text editor, but I can see how it might be efficient after many reps of using it. 
